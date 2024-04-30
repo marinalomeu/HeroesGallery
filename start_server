@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run --rm --name frk -v ./server:/app/public -p 8083:80 -e SERVER_NAME=:80 dunglas/frankenphp

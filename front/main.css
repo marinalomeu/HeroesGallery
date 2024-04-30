@@ -26,23 +26,26 @@ p{
 
 
 .container{
-    align-items: center;
+    align-items: center; 
     display: grid;
-    grid-template-columns: 250px 250px 250px;
+    grid-template-columns: 250px 250px 250px 250px;
     justify-content: center;
     column-gap: 50px;
     
 }
 
 .heroes {
+    position: relative;
     background-color: rgb(126, 137, 151);
-    margin-top: 19px;
     padding: 15px;
     width: 90%;
     max-width: 250px;
     min-width: 250px;
+    height: 200px;
     color: white;
     border-radius: 5px;
+    margin: 5px;
+    margin-top: 19px;
 }
 
 .menu{
@@ -50,8 +53,8 @@ p{
    justify-items: center;
 }
 
-
 button{
+   display: inline-block;
    border-color: rgb(139, 22, 30);
    color: white; 
    background-color: rgb(22, 52, 117);
@@ -59,6 +62,7 @@ button{
    padding: 5px;
    height: 35px;
    border-radius: 5px;
+   align-items: baseline;
 
 }
 
@@ -81,15 +85,35 @@ select{
     align-content: center;
 }
 
-
 .menuButtons{
     text-align: center;
     align-items: center;
     padding: 0px;
 }
 
+.loading{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 40px;
+}
 
+.checkbox{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    align-items: right;
+    background-size: cover;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+}
 
+.heroes:hover .checkbox {
+    opacity: 1;
+    width: 30px;
+    height: 30px;
+}
 
-
+.show-all .checkbox {
+    opacity: 1;
+}
 

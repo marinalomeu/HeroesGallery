@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "name": "Superman",
+        "gender": "Male",
+        "superpower": "Flight, super strength, heat vision, freeze breath",
+        "avatar": "https://i.pinimg.com/originals/52/e4/39/52e43982e4212a8117f7c5eba281c8cd.jpg",
+        "studio": "DC Comics"
+    },
+    {
+        "id": 2,
+        "name": "Wonder Woman",
+        "gender": "Female",
+        "superpower": "Super strength, speed, flight, enhanced senses, magical weaponry",
+        "avatar": "https://i.pinimg.com/originals/43/88/d4/4388d497d1ffab61572b07c8575881c3.jpg",
+        "studio": "DC Comics"
+    },
+    {
+        "id": 3,
+        "name": "Spider-Man",
+        "gender": "Male",
+        "superpower": "Wall-crawling, enhanced agility, super strength, spider-sense",
+        "avatar": "https://example.com/spiderman_avatar.jpg",
+        "studio": "Marvel"
+    },
+    {
+        "id": 4,
+        "name": "Captain Marvel",
+        "gender": "Female",
+        "superpower": "Flight, super strength, energy projection, invulnerability",
+        "avatar": "https://example.com/captain_marvel_avatar.jpg",
+        "studio": "Marvel"
+    },
+    {
+        "id": 5,
+        "name": "Batman",
+        "gender": "Male",
+        "superpower": "Genius-level intellect, peak physical condition, advanced technology",
+        "avatar": "https://example.com/batman_avatar.jpg",
+        "studio": "DC Comics"
+    },
+    {
+        "id": 6,
+        "name": "Wonder Man",
+        "gender": "Male",
+        "superpower": "Super strength, invulnerability, flight, energy manipulation",
+        "avatar": "https://example.com/wonder_man_avatar.jpg",
+        "studio": "Marvel"
+    },
+    {
+        "id": 7,
+        "name": "Storm",
+        "gender": "Female",
+        "superpower": "Weather manipulation, flight, immunity to extreme temperatures",
+        "avatar": "https://example.com/storm_avatar.jpg",
+        "studio": "Marvel"
+    },
+    {
+        "id": 8,
+        "name": "The Flash",
+        "gender": "Male",
+        "superpower": "Super speed, time manipulation, accelerated healing",
+        "avatar": "https://example.com/flash_avatar.jpg",
+        "studio": "DC Comics"
+    },
+    {
+        "id": 9,
+        "name": "Green Lantern",
+        "gender": "Male",
+        "superpower": "Power ring constructs, flight, energy manipulation",
+        "avatar": "https://example.com/green_lantern_avatar.jpg",
+        "studio": "DC Comics"
+    },
+    {
+        "id": 10,
+        "name": "Black Widow",
+        "gender": "Female",
+        "superpower": "Expert martial artist, espionage skills, enhanced physiology",
+        "avatar": "https://example.com/black_widow_avatar.jpg",
+        "studio": "Marvel"
+    },
+    {
+        "id": 11,
+        "name": "Iron Man",
+        "gender": "Male",
+        "superpower": "Genius-level intellect, powered armor suit",
+        "avatar": "https://example.com/iron_man_avatar.jpg",
+        "studio": "Marvel"
+    },
+    {
+        "id": 12,
+        "name": "Thor",
+        "gender": "Male",
+        "superpower": "Super strength, control over lightning, flight",
+        "avatar": "https://example.com/thor_avatar.jpg",
+        "studio": "Marvel"
+    },
+    {
+        "id": 13,
+        "name": "Supergirl",
+        "gender": "Female",
+        "superpower": "Flight, super strength, heat vision, freeze breath",
+        "avatar": "https://example.com/supergirl_avatar.jpg",
+        "studio": "DC Comics"
+    },
+    {
+        "id": 14,
+        "name": "Aquaman",
+        "gender": "Male",
+        "superpower": "Super strength, underwater adaptation, telepathic communication with sea life",
+        "avatar": "https://example.com/aquaman_avatar.jpg",
+        "studio": "DC Comics"
+    },
+    {
+        "id": 15,
+        "name": "Hulk",
+        "gender": "Male",
+        "superpower": "Super strength, invulnerability, regeneration",
+        "avatar": "https://example.com/hulk_avatar.jpg",
+        "studio": "Marvel"
+    },
+    {
+        "id": 16,
+        "name": "Green Arrow",
+        "gender": "Male",
+        "superpower": "Expert archer, peak human physical condition",
+        "avatar": "https://example.com/green_arrow_avatar.jpg",
+        "studio": "DC Comics"
+    },
+    {
+        "id": 17,
+        "name": "Black Panther",
+        "gender": "Male",
+        "superpower": "Enhanced strength, agility, senses, martial artist, Vibranium suit",
+        "avatar": "https://example.com/black_panther_avatar.jpg",
+        "studio": "Marvel"
+    },
+    {
+        "id": 18,
+        "name": "Wolverine",
+        "gender": "Male",
+        "superpower": "Regeneration, adamantium skeleton and claws, enhanced senses",
+        "avatar": "https://example.com/wolverine_avatar.jpg",
+        "studio": "Marvel"
+    },
+    {
+        "id": 19,
+        "name": "Catwoman",
+        "gender": "Female",
+        "superpower": "Expert thief, acrobat, martial artist",
+        "avatar": "https://example.com/catwoman_avatar.jpg",
+        "studio": "DC Comics"
+    },
+    {
+        "id": 20,
+        "name": "Doctor Strange",
+        "gender": "Male",
+        "superpower": "Mystic arts, teleportation, time manipulation",
+        "avatar": "https://example.com/doctor_strange_avatar.jpg",
+        "studio": "Marvel"
+    },
+    {
+        "id": 21,
+        "name": "Flash Gordon",
+        "gender": "Male",
+        "superpower": "Super speed, exceptional athlete",
+        "avatar": "https://example.com/flash_gordon_avatar.jpg",
+        "studio": "DC Comics"
+    },
+    {
+        "id": 22,
+        "name": "Captain America",
+        "gender": "Male",
+        "superpower": "Enhanced strength, agility, senses, martial artist, Vibranium shield",
+        "avatar": "https://example.com/captain_america_avatar.jpg",
+        "studio": "Marvel"
+    },
+    {
+        "id": 23,
+        "name": "Jean Grey",
+        "gender": "Female",
+        "superpower": "Telepathy, telekinesis, Phoenix Force",
+        "avatar": "https://example.com/jean_grey_avatar.jpg",
+        "studio": "Marvel"
+    },
+    {
+        "id": 24,
+        "name": "Green Goblin",
+        "gender": "Male",
+        "superpower": "Genius-level intellect, enhanced physical abilities, glider",
+        "avatar": "https://example.com/green_goblin_avatar.jpg",
+        "studio": "Marvel"
+    },
+    {
+        "id": 25,
+        "name": "Harley Quinn",
+        "gender": "Female",
+        "superpower": "Expert gymnast, skilled hand-to-hand combatant, unpredictable behavior",
+        "avatar": "https://example.com/harley_quinn_avatar.jpg",
+        "studio": "DC Comics"
+    },
+    {
+        "id": 26,
+        "name": "Deadpool",
+        "gender": "Male",
+        "superpower": "Regeneration, expert marksman, master martial artist, fourth wall awareness",
+        "avatar": "https://example.com/deadpool_avatar.jpg",
+        "studio": "Marvel"
+    },
+    {
+        "id": 27,
+        "name": "Nightwing",
+        "gender": "Male",
+        "superpower": "Master acrobat, skilled martial artist, detective skills",
+        "avatar": "https://example.com/nightwing_avatar.jpg",
+        "studio": "DC Comics"
+    },
+    {
+        "id": 28,
+        "name": "Scarlet Witch",
+        "gender": "Female",
+        "superpower": "Reality warping, chaos magic, probability manipulation",
+        "avatar": "https://example.com/scarlet_witch_avatar.jpg",
+        "studio": "Marvel"
+    },
+    {
+        "id": 29,
+        "name": "Cyborg",
+        "gender": "Male",
+        "superpower": "Enhanced strength, durability, technological interface",
+        "avatar": "https://example.com/cyborg_avatar.jpg",
+        "studio": "DC Comics"
+    },
+    {
+        "id": 30,
+        "name": "Ant-Man",
+        "gender": "Male",
+        "superpower": "Shrinking, growing in size, control over ants",
+        "avatar": "https://example.com/ant_man_avatar.jpg",
+        "studio": "Marvel"
+    }
+]

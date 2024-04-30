@@ -9,27 +9,10 @@ function heroesServices(heroesDB){
     }
 
     serv.addHeroToDB = function(hero){
-        heroesDB.appendHero(hero)
+        return heroesDB.appendHero(hero)
     }
 
-    serv.removeHero = function (heroId){
-        
-        const nonRemovedHeroes = []
-        const HeroToRemoveId = heroId
-        const superHeroes = heroesDB.getList()
-
-        for(let i = 0; i < superHeroes.length; i++){
-            let hero = superHeroes[i];
-
-            if (hero.id != HeroToRemoveId){
-                nonRemovedHeroes.push(superHeroes[i]);
-            };
-            
-        };
-        return nonRemovedHeroes;
-
-    }
-
+    
     serv.updateSuperHeroesDataBase = function(heroesList){
         heroesDB.updateSuperHeroesDataBase(heroesList)
     }
@@ -40,6 +23,8 @@ function heroesServices(heroesDB){
             return null;
         }
         hero.name = newName;
+        return heroesDB.editHero(hero)
+
     }
     
     serv.collectNewHeroInformation = function() {
@@ -64,9 +49,8 @@ function heroesServices(heroesDB){
         }
 
         const avatar = serv.enterHeroAvatarURL();
-        const id = serv.createRandomId();
 
-        return { id, name, superpower, gender,  avatar,  studio }; 
+        return { name, superpower, gender,  avatar,  studio }; 
     }
         
     serv.createRandomId = function() {
@@ -76,26 +60,20 @@ function heroesServices(heroesDB){
     serv.enterHeroName = function() {
         let newHeroName;
         
-        while(true){
+        while(!newHeroName){
             newHeroName = prompt('Name')
             
             if(newHeroName === null){
                 return  null;
             }
-            
-            else {
-                if(!heroesDB.checkIfHeroExists(newHeroName)){
-                    return newHeroName;
-                }
-                alert('This Hero already exists!')
-            }
-            
+               return newHeroName;
         }
         
     }
 
     serv.enterHeroSuperpower = function() {
         let superpower;
+        
         while(!superpower){
             superpower = prompt('Superpower')
 
@@ -136,7 +114,7 @@ function heroesServices(heroesDB){
     }
 
     serv.searchHeroesByName = function(heroesList, searchText){
-        // const searchText = vm.searchText
+       
         
         if(!searchText){
             return heroesList;
@@ -158,6 +136,7 @@ function heroesServices(heroesDB){
     }
 
     serv.filterByGender = function(heroesList, genderValue){
+
         let filteredHeroesListByGender = []
         
         if(!genderValue){
@@ -197,7 +176,6 @@ function heroesServices(heroesDB){
         }
         
         else{
-            
             let studio;
             if(studioValue == 2) {
                 studio = "DC Comics"
@@ -216,5 +194,8 @@ function heroesServices(heroesDB){
         }
     }
 
+    serv.sortByName = function(array){
+        array.sort()
+    }
 
 }
