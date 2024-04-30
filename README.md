@@ -22,37 +22,6 @@ This litle project was created as an oportunity to practice and work on JavaSrip
 - [x] Filter by name
 - [x] Filter by gender
 - [x] Sort by name
+- [x] 
 
-### `function addHero()`
-#### Logic
-1. Enter the new hero informations (Name, studio, gender, superpowers)
-2. Save those informations as properties in **hero{ }**
-3. Save the new **hero{ }** in **superHeroes[ ]**
-4. Update **vm.heroesList**
-
-#### Functions
-`prompt()` : Get hero informations from the user
-
-`array.push()` : Add objet in array
-
-`Math.random()` : generate a random hero id
-
-#
-
-### `function removeHero()`
-#### Logic
-1. Select the hero to be deleted
-2. Get the hero's index
-3. Generate a new array with all heroes except the deleted hero
-4. Update **superHeroes[ ]** and **vm.heroesList**
-
-#### Functions
-`for(){}` : For every element in **superHeroes[]** different than the selected one
-
-`array.push()`: add all the non selected heroes to the new heroes list
-
-#
-
-### `function editHero()`
-#### Logic
 
