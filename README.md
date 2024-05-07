@@ -5,7 +5,7 @@ The project is a Hero Gallery that contains Marvel and DC Comics heroes, organiz
 The user can search any Hero by name using the search imput or by gender and studio using the select filter. It can also delete selected heroes or add a new one by typing the hero's informations such as the ones that are to be shown in the cards. The list can be sorted and unsorted by name and the studio may be edited.
 
 ### Purpose
-This litle project was created as an oportunity to practice and work on JavaSript fundamentals, AngularJS functions and, of course, trainning logical thinking, as well as get introduced to PHP sintax.
+This little project was created as an oportunity to practice and work on JavaSript fundamentals, AngularJS functions and, of course, trainning logical thinking, as well as get introduced to PHP sintax.
 The project also simulates an API as json file, created manually just for practice.
 
 ### Used techs
