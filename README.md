@@ -25,12 +25,11 @@ The project also simulates an API as json file, created manually just for practi
 
 ## Project scope
 - [x] Add new heroes
-- [x] Remove heroes(individually an group)
+- [x] Remove heroes (individually and a group)
 - [x] Edit hero name
-- [ ] Edit group of heroes studio
+- [x] Edit group of heroes studio
 - [x] Filter by name
 - [x] Filter by gender
 - [x] Sort by name
-- [x] 
 
 
