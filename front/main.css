@@ -28,9 +28,8 @@ p{
 .container{
     align-items: center; 
     display: grid;
-    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-columns: 300px 300px 300px 300px;
     justify-content: center;
-    column-gap: 50px;
     
 }
 
@@ -38,14 +37,13 @@ p{
     position: relative;
     background-color: rgb(126, 137, 151);
     padding: 15px;
-    width: 90%;
     max-width: 250px;
     min-width: 250px;
     height: 200px;
     color: white;
     border-radius: 5px;
-    margin: 5px;
-    margin-top: 19px;
+    margin: 10px;
+
 }
 
 .menu{
