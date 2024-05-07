@@ -12,7 +12,6 @@ function heroesServices(heroesDB){
         return heroesDB.appendHero(hero)
     }
 
-    
     serv.updateSuperHeroesDataBase = function(heroesList){
         heroesDB.updateSuperHeroesDataBase(heroesList)
     }
@@ -142,13 +141,13 @@ function heroesServices(heroesDB){
         if(!genderValue){
             return heroesList;  
         }
-        else if(genderValue == 1){
+        else if(genderValue == 0){
             return heroesList;
         }
         else{
             
             let gender;
-            if(genderValue == 2) {
+            if(genderValue == 1) {
                 gender = "Female"
             }else{
                 gender = "Male"
@@ -167,25 +166,25 @@ function heroesServices(heroesDB){
 
     serv.filterHeroesByStudio = function(heroesList, studioValue){
         let filteredHeroesListByStudio = []
+        let studio;
         
         if(!studioValue){
             return heroesList;  
         }
-        else if(studioValue == 1){
+        else if(studioValue == 0){
             return heroesList;
         }
         
         else{
-            let studio;
-            if(studioValue == 2) {
+            if(studioValue == 1) {
                 studio = "DC Comics"
-            }else{
+            }else if(studioValue == 2){
                 studio = "Marvel"
             }
             
             for(let hero of heroesList){
                 
-                if(hero.studio.indexOf(studio) !== -1){
+                if(hero.studio == studioValue){
                     filteredHeroesListByStudio.push(hero)
                 }
                 
